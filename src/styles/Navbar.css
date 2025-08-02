@@ -1,0 +1,59 @@
+:root {
+  --logo-size: 3.5rem;
+  --bdr: 2rem;
+}
+
+.branding {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px 10px 10px 50px;
+  height: var(--logo-size);
+  width: var(--logo-size);
+}
+
+.brand {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.no-decor, .decor {
+  text-decoration: none;
+  color: white;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  position: absolute;
+  margin-left: 38vw;
+}
+
+.tab {
+  margin-top: 1.65rem;
+  margin-left: 1.5rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.search {
+  border-radius: var(--bdr);
+  border: none;
+  width: 20rem;
+  height: 2.5rem;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.search::placeholder {
+  text-align: center;
+}
