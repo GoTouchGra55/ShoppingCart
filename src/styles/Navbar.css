@@ -1,6 +1,7 @@
 :root {
   --logo-size: 3.5rem;
   --bdr: 2rem;
+  --badge-dim: 20px;
 }
 
 .branding {
@@ -39,7 +40,7 @@
 
 .tab {
   margin-top: 1.65rem;
-  margin-left: 1.5rem;
+  margin-left: 2.25rem;
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
@@ -55,5 +56,31 @@
 }
 
 .search::placeholder {
-  text-align: center;
+  text-align: left;
 }
+
+.cart-icon {
+  position: absolute;
+}
+
+.cartico {
+  transform: scale(0.35) translate(-70%, -100%);
+}
+
+.cart-badge {
+  font-size:x-small;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.badge-bg {
+  background-color: red;
+  height: var(--badge-dim);
+  width: var(--badge-dim);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  transform: translate(390%, -195%)
+}
+
