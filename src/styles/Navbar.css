@@ -84,3 +84,10 @@
   transform: translate(390%, -195%)
 }
 
+.title, .cms {
+  text-align: center;
+}
+
+.cms {
+  margin-top: 15%;
+}

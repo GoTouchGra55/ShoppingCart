@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar({ cartQuantity = 0 }) {
   return (
     <div className='Navbar'>
-      <Link to='/home' className='no-decor'>
+      <Link to='/' className='no-decor'>
         <div className='branding'>
           <img className='logo' src='/public/shopping-bag.png' alt='Logo' />
           <h1 className='brand'>Shopify</h1>

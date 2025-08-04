@@ -1,7 +1,8 @@
 .Error {
+  position: absolute;
   text-align: center;
-  transform: translateY(30%);
-  height: 100vh;
+  transform: translateY(60%);
+  height: 50vh;
   width: 100vw;
 }
 

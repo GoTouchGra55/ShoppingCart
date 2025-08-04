@@ -1,10 +1,32 @@
 .hero {
-  position: absolute;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2rem;
+  width: 100vw;
+  height: 70vh;
+}
+
+.headline {
+  font-size: 3rem;
+}
+
+.cta-button {
+  background-color: rgb(196, 66, 66);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transform: translateY(50%);
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px rgb(36, 36, 36);
+  transition: all 0.2s ease;
+}
+
+.cta-button:hover {
+  box-shadow: 5px 6px 7px rgb(71, 71, 71);
+  transform: scale(1.2) translateY(25%);
 }

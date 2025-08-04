@@ -11,7 +11,7 @@ const routes = [
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      { path: '/home', element: <Home /> },
+      { index: true, element: <Home /> },
       { path: '/products', element: <Products /> },
       { path: '/categories', element: <Categories /> },
       { path: '/cart', element: <Cart /> },

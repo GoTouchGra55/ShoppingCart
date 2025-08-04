@@ -7,7 +7,9 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }
