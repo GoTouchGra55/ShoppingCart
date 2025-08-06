@@ -11,7 +11,6 @@ export default function Navbar({ cartQuantity = 0 }) {
         </div>
       </Link>
       <nav className='tabs'>
-        <input type='text' className='search' placeholder='Summer clothes' />
         <Link to='/products' className='tab decor'>
           <h1 className='products'>Products</h1>
         </Link>

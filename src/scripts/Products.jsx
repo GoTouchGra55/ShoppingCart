@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import FetchItems from './fetchItems';
+import DisplayProducts from './DisplayProducts';
+import '../styles/loader.css';
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -16,10 +18,14 @@ export default function Products() {
   }, []);
 
   return (
-    <div>
+    <div className='main'>
       <h1 className='title'>Products</h1>
-      {!isLoading && (
-        console.log(products)
+      {isLoading ? (
+        <div className='spinDiv'>
+          <div class='spinner' />
+        </div>
+      ) : (
+        <DisplayProducts products={products} />
       )}
     </div>
   );
