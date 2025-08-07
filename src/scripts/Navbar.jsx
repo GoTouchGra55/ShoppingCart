@@ -1,7 +1,9 @@
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
 
+
 export default function Navbar({ cartQuantity = 0 }) {
+
   return (
     <div className='Navbar'>
       <Link to='/' className='no-decor'>

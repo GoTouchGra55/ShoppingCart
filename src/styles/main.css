@@ -41,3 +41,9 @@ body {
     background-position: 0% 50%;
   }
 }
+
+.wip {
+  text-align: center;
+  font-size: 3rem;
+  transform: translateY(10rem);
+}
